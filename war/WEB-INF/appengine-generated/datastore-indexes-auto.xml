@@ -1,0 +1,23 @@
+<!-- Indices written at Wed, 16 Mar 2011 03:55:20 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Baby" ancestor="false" source="auto">
+        <property name="accountRef" direction="asc"/>
+        <property name="createdAt" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="DayLog" ancestor="false" source="auto">
+        <property name="babyRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 3 times in query history -->
+    <datastore-index kind="HourLog" ancestor="false" source="auto">
+        <property name="dayLogRef" direction="asc"/>
+        <property name="hour" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

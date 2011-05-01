@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/?isWarmUp=true</url>
+    <description>Warming up an instance.</description>
+    <schedule>every 1 minutes</schedule>
+  </cron>
+</cronentries>
